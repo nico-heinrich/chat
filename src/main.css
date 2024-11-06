@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* end of reset */
+
+:root {
+  --spc-xs: .25rem;
+  --spc-s: .5rem;
+  --spc-m: 1rem;
+  --spc-l: 2rem;
+  --spc-xl: 4rem;
+  --clr-1: #2757e6;
+  --clr-2: #f2bbeb;
+  --fs-s: .75rem;
+  --fs-m: 1rem;
+  --fs-l: 1.5rem;
+  --br-s: .25rem;
+  --br-m: .5rem;
+  --br-l: 1rem;
+}
+
+body {
+  font-family: monospace;
+  font-size: var(--fs-m);
+  background-color: var(--clr-1);
+  color: var(--clr-2);
+}
